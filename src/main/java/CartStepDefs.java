@@ -22,6 +22,7 @@ public class CartStepDefs extends AbstractStepDefs{
 
     @Given("the add to cart button is clicked")
     public void theAddToCartButtonIsClicked() {
+        homePage.hoverOnAddToCart();
         homePage.clickAddToCartButton();
     }
 
